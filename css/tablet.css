@@ -13,8 +13,15 @@
 /*============================HERO SECTION=========================*/
 .hero{font-size: 56px;
         line-height: 1.07;
-      max-width: 496px;
-    }
+      max-width: 496px;}
+.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero768@1x.jpg);}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero768@2x.jpg);}}
+
+
+}
 /*============================FITURE SECTION=========================*/
 
 .secondary-titles {text-align: left;}
@@ -77,5 +84,21 @@ margin-right: auto;}
 gap: 24px;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px)  {.footer-flex-container {padding-left: 108px;}}
+@media screen and (min-width: 768px) and (max-width: 1199px)  {.footer-flex-container {padding-left: 108px;}
+
+/* ----------------------PORTFOLIO SERVICES--------------------------*/
+
+
+@media screen and (min-width: 768px) {.portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}}
+
+.button-list {justify-content: center;
+margin-bottom: 64px;}
+.image-item {width: 356px;}
+.image-list {
+    gap: 72px;}
+    .content-card {width: 356px;}
+}
 

@@ -5,14 +5,15 @@
 
     /*=====================HEADER SECTION=======================*/
 
-
+ @media screen and (max-width: 1199px){.header-container{justify-content: space-between;}}
 
 
  /*============================HERO SECTION=========================*/
 
  @media screen and (min-width: 480px){.fiture-item{
     width: 100%;
- }}
+ }
+.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero480@1x.jpg);}}
 
  /*--------------------------CUSTOMER SECTION---------------------------------*/
 
@@ -29,5 +30,23 @@
 /*==============================MOBILE MENU===================================*/
 
 @media screen and (min-width: 768px) {.mobile-menu-open-btn{display: none};
-.mobile-menu {display: none;}
+.mobile-menu {display: none;}}
+
+@media screen and (max-width: 420px) {.mobile-container{padding-left: 20px;
+padding-right: 30px;};
+
+
+/*=============================MODAL WINDOW===============================*/
+
+.modal-window{ width: 408px;}
 } 
+
+
+/*@media screen and (max-width: 767px){.button-list {
+ justify-content: flex-start;
+ row-gap: 16px;
+ column-gap: 24px;
+};}*/
+
+
+/* ----------------------PORTFOLIO SERVICES--------------------------*/
