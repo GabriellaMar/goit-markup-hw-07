@@ -134,14 +134,14 @@ Img {
 
 .contacts {
     display: flex;
-    margin-left: auto;
+   /* margin-left: auto;*/
 }
 
 
-.container .contact-item+.contact-item {
+/*.container .contact-item+.contact-item {
     margin-left: 40px;
 }
-
+*/
 .contact-item .contact-link {
     color: var(--secondary-color-text);
     font-family: 'Roboto', sans-serif;
@@ -983,13 +983,14 @@ button {
 }
 
 
-.checkbox-input:checked+.checkbox-icon-container>.checkbox-icon {
+.checkbox-input:checked + .checkbox-icon-container > .checkbox-icon {
     border-color: var(--accent-color);
     opacity: 1;
 }
 
 
 .privacy-policy-link {
+    
     display: inline-block;
     margin-left: 2px;
     color: var(--accent-color);

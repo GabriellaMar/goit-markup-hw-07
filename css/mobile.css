@@ -1,0 +1,33 @@
+ @media screen and (min-width: 480px){
+        .container {width: 428px; }
+    }
+
+
+    /*=====================HEADER SECTION=======================*/
+
+
+
+
+ /*============================HERO SECTION=========================*/
+
+ @media screen and (min-width: 480px){.fiture-item{
+    width: 100%;
+ }}
+
+ /*--------------------------CUSTOMER SECTION---------------------------------*/
+
+ @media screen and (max-width: 768px) {.customer-link:nth-last-child(-n + 2) {margin-bottom: 0;}
+
+}
+
+/*==============================FOOTER FORM================================*/
+
+@media screen and (max-width: 767px) {.footer-form {text-align: center;}
+.fotter-input{margin-bottom: 16px;
+}}
+
+/*==============================MOBILE MENU===================================*/
+
+@media screen and (min-width: 768px) {.mobile-menu-open-btn{display: none};
+.mobile-menu {display: none;}
+} 
