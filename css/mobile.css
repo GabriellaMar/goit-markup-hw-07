@@ -5,13 +5,13 @@
 
     /*=====================HEADER SECTION=======================*/
 
- @media screen and (max-width: 1199px){.header-container{justify-content: space-between;}}
+ @media screen and (max-width: 1199px){.header-container {justify-content: space-between;}}
 
-@media screen and (max-width: 767px){.header-container{ padding-top: 24px;
+@media screen and (max-width: 767px){.header-container { padding-top: 24px;
    padding-bottom: 24px;}
 }
 
- @media screen and (min-width: 480px){.fiture-item{
+ @media screen and (min-width: 480px){.fiture-item {
     width: 100%;}
 
 
@@ -21,12 +21,11 @@
  
 
 
-/*--------------------------FITURE SECTION  CUSTOMER SECTION---------------------------------*/
+/*------------------FITURE-SECTION  CUSTOMER-SECTION TEAM-SECTION--------------------*/
 
- @media screen and (max-width: 768px) {.fiture-item:not(:last-child) {margin-bottom: 72px}
-   
+ @media screen and (max-width: 767px) {.fiture-item:not(:last-child) {margin-bottom: 72px}
+    .team-item:not(:last-child) {margin-bottom: 72px;}
    .customer-link:nth-last-child(-n + 2) {margin-bottom: 0;}
-
 }
 
 /*==============================FOOTER FORM================================*/

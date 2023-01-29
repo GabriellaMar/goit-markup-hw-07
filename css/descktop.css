@@ -84,4 +84,13 @@ margin-right: 0;}
 }
     .footer-container{ gap:120px;}
     .social-list {margin-right: 80px;}
+
+/* ----------------------PORTFOLIO SERVICES--------------------------*/
+
+.image-list { 
+  justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
 }

@@ -44,8 +44,8 @@ margin-right: 12px;}
     padding-bottom: 104px;}}
 
 
- @media screen and (max-width: 767px) { .team-item {margin-top: 72px;
-}}
+ /*@media screen and (max-width: 767px) { .team-item {margin-top: 72px;
+}}*/
 
 @media screen and (min-width: 768px) {.team-list {
 margin-left: -12px;
@@ -90,7 +90,7 @@ margin-right: auto;}
 gap: 24px;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px)  {.footer-flex-container {padding-left: 108px;}
+@media screen and (min-width: 768px) and (max-width: 1199px)  {.footer-flex-container {padding-left: 108px;}}
 
 /* ----------------------PORTFOLIO SERVICES--------------------------*/
 
@@ -102,9 +102,18 @@ gap: 24px;}
 
 .button-list {justify-content: center;
 margin-bottom: 64px;}
-.image-item {width: 356px;}
-.image-list {
+
+@media screen and (min-width: 768px) {.image-list { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 72px;
+    
+}}
+
+
+/*.image-list {
     gap: 72px;}
     .content-card {width: 356px;}
-}
+}*/
 
