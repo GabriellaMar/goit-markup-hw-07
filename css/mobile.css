@@ -7,17 +7,25 @@
 
  @media screen and (max-width: 1199px){.header-container{justify-content: space-between;}}
 
-
- /*============================HERO SECTION=========================*/
+@media screen and (max-width: 767px){.header-container{ padding-top: 24px;
+   padding-bottom: 24px;}
+}
 
  @media screen and (min-width: 480px){.fiture-item{
-    width: 100%;
- }
+    width: 100%;}
+
+
+  /*============================HERO SECTION=========================*/
 .hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero480@1x.jpg);}}
 
- /*--------------------------CUSTOMER SECTION---------------------------------*/
+ 
 
- @media screen and (max-width: 768px) {.customer-link:nth-last-child(-n + 2) {margin-bottom: 0;}
+
+/*--------------------------FITURE SECTION  CUSTOMER SECTION---------------------------------*/
+
+ @media screen and (max-width: 768px) {.fiture-item:not(:last-child) {margin-bottom: 72px}
+   
+   .customer-link:nth-last-child(-n + 2) {margin-bottom: 0;}
 
 }
 

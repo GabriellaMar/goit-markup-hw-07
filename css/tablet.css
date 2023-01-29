@@ -21,23 +21,28 @@
   (min-resolution: 2dppx) {.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero768@2x.jpg);}}
 
 
-}
+
 /*============================FITURE SECTION=========================*/
 
 .secondary-titles {text-align: left;}
 
-.fiture-list {
-margin-left: -12px;
-margin-right: -12px;}
+.fiture-list { display: flex;
+    flex-wrap: wrap;
+     margin-left: -12px;
+     margin-right: -12px;}
+
+.fiture-item:nth-child(-n + 2) {margin-bottom: 72px;}
+
 .fiture-item {flex-basis:calc((100% -  4 * 12px) / 2);
     margin-left: 12px;
 margin-right: 12px;}
-.fiture-item:nth-child(-n + 2) {margin-bottom: 72px;}
+
+
 
 /*--------------------------TEAM-SECTION------------------*/
 .team-section {
-    padding-bottom: 104px;}
-}
+    padding-bottom: 104px;}}
+
 
  @media screen and (max-width: 767px) { .team-item {margin-top: 72px;
 }}
@@ -52,6 +57,7 @@ margin-right: -12px;}
     .team-item {flex-basis:calc((100% -  4 * 12px) / 2);
 margin-left: 12px;
 margin-right: 12px;}
+
 .team-item:nth-child(-n + 2) {
 margin-bottom: 64px;}
 }

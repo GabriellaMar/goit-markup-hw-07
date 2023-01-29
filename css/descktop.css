@@ -33,10 +33,13 @@ margin-left: 332px;}
         font-size: 20px;
         line-height: 1.2;}
 
+.subtitles{font-weight: 400;}
+
    .fiture-list> .fiture-item {flex-basis: calc((100% -  8 * 12px) / 4);
 margin-left: 12px;
 margin-right: 12px;
 margin-bottom: 0px;}
+
     .fiture-icon-list {
     display: flex;
     min-width: 264px;
