@@ -1,59 +1,97 @@
- @media screen and (min-width: 480px){
-        .container {width: 428px; }
+ @media screen and (min-width: 480px) {
+    .container {
+       width: 428px;
+    }
+ }
+
+
+ /*=====================HEADER SECTION=======================*/
+
+ @media screen and (max-width: 1199px) {
+    .header-container {
+       justify-content: space-between;
+    }
+ }
+
+ @media screen and (max-width: 767px) {
+    .header-container {
+       padding-top: 24px;
+       padding-bottom: 24px;
+    }
+ }
+
+ @media screen and (min-width: 480px) {
+    .fiture-item {
+       width: 100%;
     }
 
 
-    /*=====================HEADER SECTION=======================*/
-
- @media screen and (max-width: 1199px){.header-container {justify-content: space-between;}}
-
-@media screen and (max-width: 767px){.header-container { padding-top: 24px;
-   padding-bottom: 24px;}
-}
-
- @media screen and (min-width: 480px){.fiture-item {
-    width: 100%;}
+    /*============================HERO SECTION=========================*/
+    .hero-section {
+       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero480@1x.jpg);
+    }
+ }
 
 
-  /*============================HERO SECTION=========================*/
-.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero480@1x.jpg);}}
-
- 
 
 
-/*------------------FITURE-SECTION  CUSTOMER-SECTION TEAM-SECTION--------------------*/
+ /*------------------FITURE-SECTION  CUSTOMER-SECTION TEAM-SECTION--------------------*/
 
- @media screen and (max-width: 767px) {.fiture-item:not(:last-child) {margin-bottom: 72px}
-    .team-item:not(:last-child) {margin-bottom: 72px;}
-   .customer-link:nth-last-child(-n + 2) {margin-bottom: 0;}
-}
+ @media screen and (max-width: 767px) {
+    .fiture-item:not(:last-child) {
+       margin-bottom: 72px
+    }
 
-/*==============================FOOTER FORM================================*/
+    .team-item:not(:last-child) {
+       margin-bottom: 72px;
+    }
 
-@media screen and (max-width: 767px) {.footer-form {text-align: center;}
-.fotter-input{margin-bottom: 16px;
-}}
+    .customer-link:nth-last-child(-n + 2) {
+       margin-bottom: 0;
+    }
+ }
 
-/*==============================MOBILE MENU===================================*/
+ /*==============================FOOTER FORM================================*/
 
-@media screen and (min-width: 768px) {.mobile-menu-open-btn{display: none};
-.mobile-menu {display: none;}}
+ @media screen and (max-width: 767px) {
+    .footer-form {
+       text-align: center;
+    }
 
-@media screen and (max-width: 420px) {.mobile-container{padding-left: 20px;
-padding-right: 30px;};
+    .fotter-input {
+       margin-bottom: 16px;
+    }
+ }
+
+ /*==============================MOBILE MENU===================================*/
+
+ @media screen and (min-width: 768px) {
+    .mobile-menu-open-btn {
+       display: none
+    }
+
+    ;
+
+    .mobile-menu {
+       display: none;
+    }
+ }
+
+ @media screen and (max-width: 420px) {
+    .mobile-container {
+       padding-left: 20px;
+       padding-right: 30px;
+    }
+
+    ;
 
 
-/*=============================MODAL WINDOW===============================*/
+    /*=============================MODAL WINDOW===============================*/
 
-.modal-window{ width: 408px;}
-} 
-
-
-/*@media screen and (max-width: 767px){.button-list {
- justify-content: flex-start;
- row-gap: 16px;
- column-gap: 24px;
-};}*/
+    .modal-window {
+       width: 408px;
+    }
+ }
 
 
-/* ----------------------PORTFOLIO SERVICES--------------------------*/
+ /* ----------------------PORTFOLIO SERVICES--------------------------*/

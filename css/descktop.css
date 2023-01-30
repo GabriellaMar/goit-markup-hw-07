@@ -1,96 +1,152 @@
   /*=====================HEADER SECTION=======================*/
-  
-  @media screen and (min-width: 1200px){
-        .container {
-   width: 1200px;}
-  
-.site-menu {margin-left: 76px;}
-   .contacts{ display: flex;
-gap: 40px;
-margin-left: 332px;}
 
- /*============================HERO SECTION=========================*/
+  @media screen and (min-width: 1200px) {
+      .container {
+          width: 1200px;
+      }
 
-.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@1x.jpg);}
+      .site-menu {
+          margin-left: 76px;
+      }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {.hero-section{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@2x.jpg);}}
+      .contacts {
+          display: flex;
+          gap: 40px;
+          margin-left: 332px;
+      }
+
+      /*============================HERO SECTION=========================*/
+
+      .hero-section {
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@1x.jpg);
+      }
+
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+          .hero-section {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@2x.jpg);
+          }
+      }
 
 
-/*============================FITURE SECTION=========================*/
-.fiture-section{padding-top: 120px;
-    padding-bottom: 0px;}
-}
+      /*============================FITURE SECTION=========================*/
+      .fiture-section {
+          padding-top: 120px;
+          padding-bottom: 0px;
+      }
+  }
 
- @media screen and (max-width: 1200px)
-    {.fiture-icon {display: none;}
-.fiture-icon-list {display: none;}
-}
+  @media screen and (max-width: 1200px) {
+      .fiture-icon {
+          display: none;
+      }
 
-@media screen and (min-width: 1200px){.secondary-titles {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;}
+      .fiture-icon-list {
+          display: none;
+      }
+  }
 
-.subtitles{font-weight: 400;}
+  @media screen and (min-width: 1200px) {
+      .secondary-titles {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 1.2;
+      }
 
-   .fiture-list> .fiture-item {flex-basis: calc((100% -  8 * 12px) / 4);
-margin-left: 12px;
-margin-right: 12px;
-margin-bottom: 0px;}
+      .subtitles {
+          font-weight: 400;
+      }
 
-    .fiture-icon-list {
-    display: flex;
-    min-width: 264px;
-    height: 116px;
-    margin-bottom: 8px;
-    background-color: var(--secondary-background-color);
-    align-items: center;
-  justify-content: center;}}
+      .fiture-list>.fiture-item {
+          flex-basis: calc((100% - 8 * 12px) / 4);
+          margin-left: 12px;
+          margin-right: 12px;
+          margin-bottom: 0px;
+      }
+
+      .fiture-icon-list {
+          display: flex;
+          min-width: 264px;
+          height: 116px;
+          margin-bottom: 8px;
+          background-color: var(--secondary-background-color);
+          align-items: center;
+          justify-content: center;
+      }
+  }
 
 
   /*----------------------------------- SERVICES---------------------------------*/
-  @media screen and (max-width: 1199px) {.services-section {display: none;}}
+  @media screen and (max-width: 1199px) {
+      .services-section {
+          display: none;
+      }
+  }
 
   /*------------------------------------TEAM-SECTION------------------------------*/
 
-   @media screen and (min-width: 1200px) {.team-section {
-        padding-top: 120px;
-    padding-bottom: 120px;}
-    .team-list{gap: 24px;}
-.team-item {margin-left: 0;
-margin-right: 0;}
+  @media screen and (min-width: 1200px) {
+      .team-section {
+          padding-top: 120px;
+          padding-bottom: 120px;
+      }
 
-/*----------------------------------------CUSTOMER SECTION---------------------------------*/
+      .team-list {
+          gap: 24px;
+      }
 
-.customer-section {
-        padding-top: 120px;
-    padding-bottom: 120px;}
+      .team-item {
+          margin-left: 0;
+          margin-right: 0;
+      }
 
-    .customer-link {margin-bottom: 0;}
+      /*----------------------------------------CUSTOMER SECTION---------------------------------*/
 
-    /*--------------------------------- FOOTER STYLES -------------------------------*/
-.footer {
-        padding-top: 100px;
-    padding-bottom: 100px;}
-}
+      .customer-section {
+          padding-top: 120px;
+          padding-bottom: 120px;
+      }
 
-@media screen and (max-width: 1199px) {.footer-text{margin-bottom: 72px;
-}}
+      .customer-link {
+          margin-bottom: 0;
+      }
 
-@media screen and (min-width: 1200px){.footer-flex-container {
-    display: flex;
-}
-    .footer-container{ gap:120px;}
-    .social-list {margin-right: 80px;}
+      /*--------------------------------- FOOTER STYLES -------------------------------*/
+      .footer {
+          padding-top: 100px;
+          padding-bottom: 100px;
+      }
+  }
 
-/* ----------------------PORTFOLIO SERVICES--------------------------*/
+  @media screen and (max-width: 1199px) {
+      .footer-text {
+          margin-bottom: 72px;
+      }
+  }
 
-.image-list { 
-  justify-content: center;
-    column-gap: 24px;
-    row-gap: 48px;
-}
+  @media screen and (min-width: 1200px) {
+      .footer-flex-container {
+          display: flex;
+      }
 
-}
+      .footer-container {
+          gap: 120px;
+      }
+
+      .social-list {
+          margin-right: 80px;
+      }
+
+      /* ----------------------PORTFOLIO SERVICES--------------------------*/
+
+      .image-list {
+          justify-content: center;
+          column-gap: 24px;
+          row-gap: 48px;
+      }
+
+      .portfolio-image-container {
+          max-width: 360px;
+      }
+  }
