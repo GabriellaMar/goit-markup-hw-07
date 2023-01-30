@@ -70,7 +70,7 @@
        display: none
     }
 
-    ;
+   
 
     .mobile-menu {
        display: none;
@@ -83,15 +83,18 @@
        padding-right: 30px;
     }
 
-    ;
+   
 
 
     /*=============================MODAL WINDOW===============================*/
 
-    .modal-window {
-       width: 408px;
-    }
+    
  }
 
-
+@media screen and (max-width: 385px) {.phone-item .phone-link {font-size: 29px;}
+.mobile-social-list {gap: 40px;}}
  /* ----------------------PORTFOLIO SERVICES--------------------------*/
+  @media screen and (max-width: 767px) {.portfolio-image-container {
+          max-width: 396px;
+      }
+   }

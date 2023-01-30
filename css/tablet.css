@@ -1,4 +1,10 @@
 /*=====================HEADER SECTION=======================*/
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }}
+
 @media screen and (max-width: 767px) {
     .site-menu {
         display: none
@@ -11,11 +17,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-    }
-
-    .site-menu {
+     .site-menu {
         margin-left: 123px;
     }
 
@@ -145,6 +147,7 @@
         display: flex;
         gap: 24px;
     }
+    .modal-window { width: 408px;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -161,14 +164,13 @@
         padding-top: 64px;
         padding-bottom: 64px;
     }
-}
 
 .button-list {
     justify-content: center;
     margin-bottom: 64px;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {*/
     .image-list {
         display: flex;
         flex-wrap: wrap;

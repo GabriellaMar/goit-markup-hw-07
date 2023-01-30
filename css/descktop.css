@@ -141,7 +141,7 @@
       /* ----------------------PORTFOLIO SERVICES--------------------------*/
 
       .image-list {
-          justify-content: center;
+         justify-content: center;
           column-gap: 24px;
           row-gap: 48px;
       }
@@ -149,4 +149,6 @@
       .portfolio-image-container {
           max-width: 360px;
       }
+
+      .button-list {margin-bottom: 72px;}
   }
