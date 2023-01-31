@@ -2,7 +2,7 @@
 
   @media screen and (min-width: 1200px) {
       .container {
-          width: 1160px;
+          max-width: 1160px;
       }
 
       .site-menu {
@@ -13,11 +13,11 @@
           display: flex;
           gap: 40px;
           margin-left: 332px;
-      }
+      }}
 
       /*============================HERO SECTION=========================*/
 
-      .hero-section {
+     @media screen and (min-width: 961px) { .hero-section {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@1x.jpg);
       }
 

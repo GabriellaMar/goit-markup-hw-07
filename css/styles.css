@@ -950,7 +950,8 @@ button {
 
 .mobile-social-list {
     display: flex;
-    gap: 56px;
+
+    justify-content: space-between;
 }
 
 .mobile-close-icon {

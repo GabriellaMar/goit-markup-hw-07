@@ -1,6 +1,6 @@
  @media screen and (min-width: 480px) {
     .container {
-       width: 428px;
+       max-width: 428px;
     }
  }
 
@@ -30,6 +30,7 @@
     .hero-section {
        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero480@1x.jpg);
     }
+
  }
 
 
@@ -77,11 +78,11 @@
     }
  }
 
- @media screen and (max-width: 420px) {
+ /*@media screen and (max-width: 420px) {
     .mobile-container {
        padding-left: 20px;
        padding-right: 30px;
-    }
+    }*/
 
    
 
@@ -89,7 +90,7 @@
     /*=============================MODAL WINDOW===============================*/
 
     
- }
+ 
 
 @media screen and (max-width: 385px) {.phone-item .phone-link {font-size: 29px;}
 .mobile-social-list {gap: 40px;}}
