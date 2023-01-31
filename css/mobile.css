@@ -94,10 +94,14 @@
     /*=============================MODAL WINDOW===============================*/
 
     
- 
+ @media (max-width: 479px) {
+    .modal-window {
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 385px) {.phone-item .phone-link {font-size: 29px;}
-.mobile-social-list {gap: 40px;}}
+@media screen and (max-width: 385px) {.phone-item .phone-link {font-size: 29px;}}
+/*.mobile-social-list {gap: 40px;}}*/
  /* ----------------------PORTFOLIO SERVICES--------------------------*/
   @media screen and (max-width: 767px) {.portfolio-image-container {
           max-width: 396px;

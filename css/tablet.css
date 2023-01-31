@@ -136,7 +136,7 @@ row-gap: 72px;}
         text-align: left;
     }
 
-    /*==============================FOOTER FORM================================*/
+    /*==============================FOOTER_FORM and MODAL_WINDOW===============================*/
     .fotter-input {
         width: 264px;
     }
@@ -149,7 +149,9 @@ row-gap: 72px;}
         display: flex;
     }
 
-    .modal-window { width: 408px;}
+    .modal-window { 
+    width: 408px;
+    height: 586px;}
 }
 
 @media screen and (max-width: 1199px) {
@@ -162,7 +164,7 @@ row-gap: 72px;}
     }
 }
 
-/* ----------------------PORTFOLIO SERVICES--------------------------*/
+/* ----------------------PORTFOLIO-SERVICES--------------------------*/
 
 
 @media screen and (min-width: 768px) {

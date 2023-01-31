@@ -109,7 +109,7 @@
 
 
 
-      /*--------------------------------- FOOTER STYLES -------------------------------*/
+      /*--------------------------------- FOOTER_STYLES and MODAL_WINDOW-------------------------------*/
       .footer {
           padding-top: 100px;
           padding-bottom: 100px;
@@ -130,7 +130,11 @@
           gap: 120px; 
       }
 
-      
+       .modal-window {
+
+        width: 408px;
+        height: 584px;
+    }
       /* ----------------------PORTFOLIO SERVICES--------------------------*/
 
       .image-list {
