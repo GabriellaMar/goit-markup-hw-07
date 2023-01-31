@@ -42,19 +42,21 @@
     .fiture-item:not(:last-child) {
        margin-bottom: 72px
     }
-
-    .team-item:not(:last-child) {
+.team-item:not(:last-child) {
+       margin-bottom: 72px;}
+    /*.team-item:not(:last-child) {
        margin-bottom: 72px;
-    }
+    }*/
 
-    .customer-link:nth-last-child(-n + 2) {
+    /*.customer-link:nth-last-child(-n + 2) {
        margin-bottom: 0;
-    }
+    }*/
  }
-
+@media screen and (max-width: 480px) {.customer-link{width: 190px;}}
  /*==============================FOOTER FORM================================*/
 
  @media screen and (max-width: 767px) {
+
     .footer-form {
        text-align: center;
     }
@@ -62,6 +64,8 @@
     .fotter-input {
        margin-bottom: 16px;
     }
+
+    .footer-container {align-items: center;}
  }
 
  /*==============================MOBILE MENU===================================*/
