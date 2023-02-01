@@ -30,6 +30,8 @@
 
    .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero768@1x.jpg);
+         padding-top: 112px;
+    padding-bottom: 108px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -57,12 +59,13 @@
 row-gap: 72px;}
 .fiture-item {
         flex-basis: calc((100% - 24px) / 2);
-    }}
+    }
 
     /*--------------------------TEAM-SECTION------------------*/
     .team-section {
-        padding-bottom: 104px;
-    }
+       padding-top: 96px;
+       padding-bottom: 104px;
+    }}
 
 
 @media screen and (min-width: 768px) {.team-list {display: flex;
@@ -132,7 +135,7 @@ row-gap: 72px;}
 
 
 @media screen and (min-width: 768px) {
-    .social-media-title {
+    .social-media-title, .footer-logo  {
         text-align: left;
     }
 

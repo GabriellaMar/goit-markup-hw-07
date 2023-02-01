@@ -350,7 +350,7 @@ body {
 
 .team-section {
     background: var(--secondary-background-color);
-    padding-top: 96px;
+    padding-top: 128px;
     padding-bottom: 128px;
 
 }
@@ -445,9 +445,6 @@ body {
 }
 
 /*----------------------------------------CUSTOMER SECTION---------------------------------*/
-
-
-
 .customer-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -521,7 +518,6 @@ text-align: center;
 
 .footer-container {display: flex;
 flex-direction: column;
-
 gap: 72px;}
 
 

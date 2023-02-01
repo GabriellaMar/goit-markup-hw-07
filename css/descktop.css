@@ -19,14 +19,15 @@
 
      @media screen and (min-width: 961px) { .hero-section {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@1x.jpg);
-      }
+        padding-top: 188px;
+    padding-bottom: 188px; 
+        }
 
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
           .hero-section {
-              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@2x.jpg);
-          }
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero1200@2x.jpg);}  
       }
 
 
@@ -90,16 +91,6 @@
           padding-top: 120px;
           padding-bottom: 120px;
       }
-
-      /*.team-list {
-          gap: 24px;
-      }
-
-      .team-item {
-          margin-left: 0;
-          margin-right: 0;
-      }*/
-
       /*----------------------------------------CUSTOMER SECTION---------------------------------*/
 
       .customer-section {
@@ -120,12 +111,12 @@
   @media screen and (min-width: 1200px) {
       .footer-flex-container { display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
           
       }
 
       .footer-container {
-        align-items: center;
+        align-items: baseline;
         margin-right: 80px;
           gap: 120px; 
       }
