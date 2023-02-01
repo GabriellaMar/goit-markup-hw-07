@@ -52,7 +52,17 @@
        margin-bottom: 0;
     }*/
  }
-@media screen and (max-width: 480px) {.customer-link{width: 190px;}}
+
+/*@media screen and (max-width: 428px) {.customer-link {flex-basis: 50% ;
+}
+}*/
+ 
+
+ @media screen and (max-width: 428px) {
+   .customer-link {
+   width:33.33vw;}}
+
+/*@media screen and (max-width: 480px) {.customer-link{width: 190px;}}*/
  /*==============================FOOTER FORM================================*/
 
  @media screen and (max-width: 767px) {
