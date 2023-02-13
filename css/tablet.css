@@ -152,9 +152,9 @@ row-gap: 72px;}
         display: flex;
     }
 
-    .modal-window { 
+     .modal-window { 
     width: 408px;
-    height: 586px;}
+    height: 586px;} 
 }
 
 @media screen and (max-width: 1199px) {

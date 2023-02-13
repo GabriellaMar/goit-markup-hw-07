@@ -44,23 +44,25 @@
     }
 .team-item:not(:last-child) {
        margin-bottom: 72px;}
-    /*.team-item:not(:last-child) {
-       margin-bottom: 72px;
-    }*/
-
-    /*.customer-link:nth-last-child(-n + 2) {
-       margin-bottom: 0;
-    }*/
+   
  }
 
-/*@media screen and (max-width: 428px) {.customer-link {flex-basis: 50% ;
-}
-}*/
- 
 
- @media screen and (max-width: 428px) {
-   .customer-link {
-   width:33.33vw;}}
+ @media screen and (min-width: 428px) {.customer-link {width: 190px;}}
+
+ @media screen and (max-width: 427px) {
+  .customer-item  {
+ flex-basis: calc((100% - 16px) / 2);
+}
+  
+}
+   
+  /*flex: 0 1 50%;*/
+  /* width:33.33vw;}*/
+/* (428/100) * 100= 44,39 vw- відносна величина ширини в.Юпорта*/
+  
+   
+
 
 /*@media screen and (max-width: 480px) {.customer-link{width: 190px;}}*/
  /*==============================FOOTER FORM================================*/
@@ -98,20 +100,22 @@
        padding-right: 30px;
     }*/
 
-   
+   @media screen and (max-width: 428px) {.phone-item .phone-link  {font-size: 8vw;}}
 
 
     /*=============================MODAL WINDOW===============================*/
 
     
- @media (max-width: 479px) {
+  /* @media (max-width: 479px) {  
     .modal-window {
         width: 100%;
     }
-}
+}*/
 
-@media screen and (max-width: 385px) {.phone-item .phone-link {font-size: 29px;}}
-/*.mobile-social-list {gap: 40px;}}*/
+
+
+  
+
  /* ----------------------PORTFOLIO SERVICES--------------------------*/
   @media screen and (max-width: 767px) {.portfolio-image-container {
           max-width: 396px;
